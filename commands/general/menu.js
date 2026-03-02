@@ -1,6 +1,5 @@
-import { reply } from '../../lib/utils.js';
-import { config } from '../../lib/utils.js';
-import { runtime } from '../../lib/utils.js';
+import { reply, runtime } from '../../../lib/utils.js';
+import { config } from '../../../config/config.js';
 
 const startTime = Date.now();
 
